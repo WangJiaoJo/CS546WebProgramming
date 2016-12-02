@@ -1,0 +1,26 @@
+{
+  "name": "petpar",
+  "version": "1.0.0",
+  "description": "final project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node app.js"
+  },
+  "author": "ZijingHuang ShiZheZhou JiaoWang",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.14.2",
+    "handlebars": "^4.0.6",
+    "mongodb": "^2.2.11",
+    "node-uuid": "^1.4.7",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}

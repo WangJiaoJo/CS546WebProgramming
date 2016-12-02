@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!--  <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+    <!-- <link href="http://bootstrap.ninghao.net/assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
+
+    {{> (lookup . 'partial_css') }}
+
+    <!--<link href="../public/css/home.css" rel="stylesheet">-->
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+
+
+    {{{body}}}
+
+
+    <div class="footer">
+      <div class="container">
+           <div class="row clearfix">
+            <div class="col-xs-6 column">
+               <div class="text-muted">|<a href="#"><span> POLICY </span></a>
+                |<a href="#"><span> PRIVACY </span></a>
+                |<a href="#"><span> ADVERTISEMENT </span></a>
+                |<a href="#"><span > CONTACT US |</span></a>
+               </div>
+            </div>
+            <div class="col-xs-6 column">
+                 <div class="text-muted  text-right"> COPYRIGHT <span class="glyphicon glyphicon-copyright-mark"></span> 2016-2020 SIT. All rights reserved. </div>
+            </div>
+          </div>
+      </div>
+    </div>
+   
+
+ 
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
